@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="form-box">
+      <h2>Log In</h2>
+      <p>Don't have an account? <a href="index.html">Create one</a></p>
+
+      <input type="email" id="log_email" placeholder="email" />
+      <span class="error" id="muted_msg_log_email"></span>
+
+      <input type="password" id="log_pass" placeholder="password" />
+      <span class="error" id="muted_msg_log_pass"></span>
+
+      <button onclick="logInInfo()">Log In</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
